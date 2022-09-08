@@ -1,5 +1,5 @@
 public class Employee {
-    private final String fio;
+    private final String fullName;
     private int department;
     private double salary;
 
@@ -7,15 +7,15 @@ public class Employee {
 
     private static int counter = 1;
 
-    public Employee(String fio, int department, double salary) {
-        this.fio = fio;
+    public Employee(String fullName, int department, double salary) {
+        this.fullName = fullName;
         this.department = department;
         this.salary = salary;
         this.id = counter++;
     }
 
-    public String getFio() {
-        return this.fio;
+    public String getFullName() {
+        return this.fullName;
     }
 
     public int getDepartment() {
@@ -41,6 +41,6 @@ public class Employee {
     @Override
 
     public String toSring() {
-        return getId() + ". " + getFio() + " (" + getDepartment() + " отдел)" + getSalary() + " руб.";
+        return getId() + ". " + getFullName() + " (" + getDepartment() + " отдел)" + getSalary() + " руб.";
     }
 }
