@@ -40,7 +40,7 @@ public class Employee {
 
     @Override
 
-    public String toSring() {
+    public String toString() {
         return getId() + ". " + getFullName() + " (" + getDepartment() + " отдел)" + getSalary() + " руб.";
     }
 }
