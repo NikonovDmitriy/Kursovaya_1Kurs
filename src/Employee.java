@@ -41,6 +41,6 @@ public class Employee {
     @Override
 
     public String toString() {
-        return getId() + ". " + getFullName() + " (" + getDepartment() + " отдел)" + getSalary() + " руб.";
+        return getId() + ". " + getFullName() + " (" + getDepartment() + " отдел), " + getSalary() + " руб.";
     }
 }
