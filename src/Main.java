@@ -51,7 +51,20 @@ public class Main {
 
         for (Employee e : employees) {
             System.out.println(e.toString());
-
         }
+
+        System.out.println();
+        System.out.println("Сумма затрат на зарплату сотруднгиков в месяц " + getSum() + " руб.");
+        getMinPay();
+        getMaxPay();
+        System.out.println("Среднее значение зарплат сотрудников " + averageSalary() + " руб.");
+        System.out.println();
+
+        for (Employee e : employees) {
+            System.out.println(e.getFullName());
+        }
+
+        System.out.println();
+
     }
 }
