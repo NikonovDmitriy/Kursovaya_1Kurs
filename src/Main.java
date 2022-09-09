@@ -54,7 +54,7 @@ public class Main {
         }
 
         System.out.println();
-        System.out.println("Сумма затрат на зарплату сотруднгиков в месяц " + getSum() + " руб.");
+        System.out.println("Сумма затрат на зарплату сотрудников в месяц " + getSum() + " руб.");
         getMinPay();
         getMaxPay();
         System.out.println("Среднее значение зарплат сотрудников " + averageSalary() + " руб.");
