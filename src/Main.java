@@ -62,16 +62,16 @@ public class Main {
     }
 
     public static void printFullNames() {
-        for (Employee e : employees) {
-            System.out.println(e.getFullName());
+        for (Employee employee : employees) {
+            System.out.println(employee.getFullName());
         }
         System.out.println();
     }
 
 
     public static void printEmployees() {
-        for (Employee e : employees) {
-            System.out.println(e.toString());
+        for (Employee employee : employees) {
+            System.out.println(employee.toString());
         }
     }
 }
