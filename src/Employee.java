@@ -5,7 +5,7 @@ public class Employee {
 
     private final int id;
 
-    private static int counter = 1;
+    private static int counter = 0;
 
     public Employee(String fullName, int department, double salary) {
         this.fullName = fullName;
